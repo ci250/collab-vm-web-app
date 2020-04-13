@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - npm > request > extend:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > node-gyp > request > extend:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > npm-registry-client > request > extend:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2020-04-13T18:12:42.283Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-04-13T18:12:42.283Z'
+  'npm:lodash:20180130':
+    - npm > cli-table2 > lodash:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > npm-audit-report > cli-table2 > lodash:
+        patched: '2020-04-13T18:12:42.283Z'
+  'npm:stringstream:20180511':
+    - npm > request > stringstream:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > node-gyp > request > stringstream:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > npm-registry-client > request > stringstream:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > npm-lifecycle > node-gyp > request > stringstream:
+        patched: '2020-04-13T18:12:42.283Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > stringstream:
+        patched: '2020-04-13T18:12:42.283Z'
