@@ -1,9 +1,11 @@
 notifications:
   email: false
 language: node_js
+os:
+- linux
+dist: xenial
 node_js:
 - node
-sudo: required
 services:
 - docker
 before_install:
