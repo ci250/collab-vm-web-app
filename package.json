@@ -9,7 +9,7 @@
     "expose-loader": "^0.7.5",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
-    "html-webpack-plugin": "^4.2.0",
+    "html-webpack-plugin": "^4.2.1",
     "imports-loader": "^0.8.0",
     "jquery": "^3.5.0",
     "mime": "^2.4.4",
