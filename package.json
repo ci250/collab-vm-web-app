@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/Cosmic-Sans/collab-vm-web-app#readme",
   "dependencies": {
-    "fomantic-ui": "^2.8.5",
+    "fomantic-ui": "^2.8.6",
     "ipaddr.js": "^1.9.1",
     "npm": "^6.14.6",
     "snyk": "^1.362.0"
